@@ -1,0 +1,17 @@
+<testsuite errors="0" failures="0" name="features.Form_authentification.Positive test cases for login page" skipped="0" tests="1" time="0.005005"><testcase classname="features.Form_authentification.Positive test cases for login page" name="User is able to login with valid credentials and then logout" status="passed" time="0.005005"><system-out>
+<![CDATA[
+@scenario.begin
+  Scenario: User is able to login with valid credentials and then logout
+    Given I navigate to "login_page" page ... passed in 0.000s
+    Given I enter valid "tomsmith" username ... passed in 0.000s
+    And I enter valid "SuperSecretPassword!" password ... passed in 0.000s
+    And I click on "login" button ... passed in 0.000s
+    Then I should see "You logged into a secure area!" success login message ... passed in 0.000s
+    Then I click on "logout" button ... passed in 0.000s
+    And should see "You logged out of the secure area!" success logout message ... passed in 0.005s
+    Then I close "browser" ... passed in 0.000s
+
+@scenario.end
+--------------------------------------------------------------------------------
+]]>
+</system-out></testcase></testsuite>

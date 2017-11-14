@@ -1,0 +1,12 @@
+<testsuite errors="0" failures="0" name="features.Basic_auth.Login thought authentification pop up" skipped="0" tests="1" time="6.084058"><testcase classname="features.Basic_auth.Login thought authentification pop up" name="Log in to the page with valid credentials" status="passed" time="6.084058"><system-out>
+<![CDATA[
+@scenario.begin
+  Scenario: Log in to the page with valid credentials
+    Given I navigate to the basic auth page ... passed in 2.798s
+    And I should see "Congratulations! You must have the proper credentials." the success message ... passed in 0.086s
+    Then I close the browser ... passed in 3.200s
+
+@scenario.end
+--------------------------------------------------------------------------------
+]]>
+</system-out></testcase></testsuite>
