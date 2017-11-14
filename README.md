@@ -1,4 +1,6 @@
-This is web automation demo for https://the-internet.herokuapp.com/ website
+## Demo for web test automation framework  
+for https://the-internet.herokuapp.com/ website  
+
 Tool kit:
 - Selenium
 - Python
