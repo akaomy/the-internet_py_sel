@@ -14,11 +14,6 @@ def verify_basic_auth_success_message(context, actual_basic_auth_success_message
     expected_basic_auth_success_message = "Congratulations! You must have the proper credentials."
     expect(actual_basic_auth_success_message).to(contain(expected_basic_auth_success_message))
 
-	# try:
-	# 	expect(actual_basic_auth_success_message).to(contain(expected_basic_auth_success_message)).until(True)
-	# finally:
-	# 	driver.quit()
-
 @then(u'I close the browser')
 def close_browser(context):
     driver.quit()
